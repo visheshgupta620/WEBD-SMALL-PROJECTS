@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.intro,.edu,.skillset{
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+button{
+    background-color: burlywood;
+    height: 50px;
+    width: 167.5px;
+    margin-top: 50px;
+    text-decoration: line-through;
+}
+
+.introadd{
+    display: block;
+    width: 520px;   
+    border: 2px solid rgb(104, 69, 69);
+    background-color: beige;
+    position: absolute;
+    top: 120px;
+    padding: 10px;
+}
+.eduadd{
+    display: block;
+    width: 520px;   
+    border: 2px solid rgb(104, 69, 69);
+    background-color: beige;
+    position: absolute;
+    top: 120px;
+    left: -188px;
+    padding: 10px;
+}
+.skilladd{
+    display: block;
+    width: 520px;   
+    border: 2px solid rgb(104, 69, 69);
+    background-color: beige;
+    position: absolute;
+    top: 120px;
+    left: -375px;
+    padding: 10px;
+}
