@@ -1,0 +1,29 @@
+<%- include('./partials/header2') %>
+
+
+    <form action="/members/<%- user.id %>?_method=PATCH" method="post">
+        <div>
+            <label class="formlabels" for="name">Name :</label>
+            <br><br>
+            <input type="text" name="name" id="name" value="<%- user.name %>" class="inp">
+        </div>
+        <div>
+            <label class="formlabels" for="age">Age :</label>
+            <br><br>
+            <input type="number" name="age" value="<%- user.age %>" id="age" class="inp">
+        </div>
+        <div>
+            <label class="formlabels" for="address">Address :</label>
+            <br><br>
+            <input type="text" name="address" value="<%- user.address %>" id="address" class="inp">
+            <br><br>
+        </div>
+        <button class="sub">Update</button>
+    </form>
+    <br>
+    <form action="/members/<%- user.id %>?_method=delete" method="post">
+        <button class="rem">Remove Member</button>
+    </form>
+
+
+    <%- include('./partials/footer2') %>

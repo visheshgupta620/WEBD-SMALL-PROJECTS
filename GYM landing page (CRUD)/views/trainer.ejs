@@ -1,0 +1,19 @@
+<%- include('./partials/header')  %>
+
+
+            <h1 class="heading">Trainer list !!</h1>
+            <div class="bigbox">
+         <%   for(let trainer of trainers){ %>
+                     <div class="box">
+                        <h1><%- trainer.name %></h1>
+                        <h2><%- trainer.age %></h2>
+                        <h2><%- trainer.address %></h2>
+                       </div>
+                  <%  }  %>
+                  <!-- <div class="box">
+                     <a href="/member/new">WANT TO JOIN ? </a>
+                  </div> -->
+               </div>
+
+
+<%- include('./partials/footer')  %>
