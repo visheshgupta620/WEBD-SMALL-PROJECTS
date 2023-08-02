@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+}
+h3{
+    text-align: center;
+}
+.inp{
+    width: 70%;
+    padding-left: 5px;
+}
+#btn{
+    width: 25%;
+    cursor: pointer;
+}
+.disp{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+p{
+    display: inline;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+.up-arrow,.down-arrow,.bin{
+    border: none;
+    padding: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.movements{
+    /* border: 2px solid black; */
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+.done{
+    text-decoration: line-through;
+}
